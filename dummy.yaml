@@ -1,0 +1,27 @@
+# Dummy config file for Git learning
+app:
+  name: sample-app
+  version: 1.0.0
+
+environment:
+  type: development
+  debug: true
+
+database:
+  host: localhost
+  port: 5432
+  username: user123
+  password: pass123
+
+features:
+  logging: true
+  notifications: false
+  backup:
+    enabled: true
+    frequency: daily
+
+servers:
+  - name: server1
+    ip: 10.0.0.1
+  - name: server2
+    ip: 10.0.0.2
